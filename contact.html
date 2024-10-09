@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang=”en”>  <!--  Declare language of webpage -->
 <html> 
-<head> 
-<title>Contact</title>
- </head>
- <body> 
-<h1>Contact Me</h1>
-   <div class="flex-container">
-  <button> <a href="Home.html" target="_self">Home</a> </button>
-  <button> <a href="About.html" target="_self">About</a> </button>
-  <button> <a href="Contact.html" target="_self">About</a> </button>
- </div>
-<ul>
-<li>770-XXX-XXX</li>
-<li>myname@ksu.edu</li>
-<li>Street Address, City, GA, USA </li>
-</ul>
+   <head> 
+      <link rel="stylesheet" href="style.css"> <!-- link to style sheet ‘style.css’ -->
+      <title>Contact</title>
+      <meta name="viewport" content="width='device-width', initial-scale=1.0"> <!-- viewport to adjust to diffrent devices, responsive web design  -->
+   </head>
+   <body> 
+      <h1>Contact Me</h1>
+      <div>
+         <button> <a href="Home.html" target="_self">Home</a> </button><!-- Buttons with links to other pages on site, using RELATIVE links for faster load times, responsive web design-->
+         <button> <a href="About.html" target="_self">About</a> </button>
+         <button> <a href="Contact.html" target="_self">Contact</a> </button>
+      </div>
+      <ul> <!-- unordered list with placeholder contact information. Add linkedin at later date? -->
+         <li>770-XXX-XXX</li>
+         <li>myname@ksu.edu</li>
+         <li>Street Address, City, GA, USA </li>
+      </ul>
+
+      <form name="comment" onsubmit="return validateForm()" method="post">  <!-- code made with W3 Javascript Form Validation Module https://www.w3schools.com/js/js_validation.asp-->
+         <h5> Any comments or concerns? <br></h5>
+         <input type="text" name="fname">
+         <input type="submit" value="Submit">
+      </form> 
  
-<script src="script.js"></script>
- </body> 
+      <script src="script.js"></script> <!-- script command so javascript works  -->
+   </body> 
 </html>
 
