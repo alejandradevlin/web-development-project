@@ -1,0 +1,34 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+  
+      background-color: #F8F0E3; /* off white/beige rather than a harsh pure white background */
+      
+      /* Customize the font, size, and color for text*/
+      font-family: courier; /* system font to maximize cross compatibility/load time */
+      font-size: 24px;
+      color: black;
+  
+      /* Adjust the padding and margins */
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+  
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+  
+  }
+  
+  
+  
+  /* General style rule set for flex container */
+  .flex-container {
+    display: flex;
+  }
+  
