@@ -10,9 +10,9 @@ app.get('/', (req, res) => { //get action, retrieve file from server
 
 app.post('/submit-form', (req, res) => {  //post action, insert resource into the server, req will store incoming objects, res will be the response sent to the server ('Thanks!')
     const comments = req.body.comments; //  to access form data
-    res.send(`Thanks!`);
+    res.send(`Thanks!`); // send a thank you for typing a comment
 });
 
 app.listen(port, () => { //listening on specified port, in this case 3000
-    console.log(`Server running on http://localhost:${port}`);
+    console.log(`Server running on http://localhost:${port}`); //when server is run on a terminal, print message
 });
