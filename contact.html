@@ -19,11 +19,11 @@
          <li>Street Address, City, GA, USA </li>
       </ul>
 
-      <form name="comment" onsubmit="return validateForm()" method="post">  <!-- code made with W3 Javascript Form Validation Module https://www.w3schools.com/js/js_validation.asp-->
-         <h5> Any comments or concerns? <br></h5>
-         <input type="text" name="fname">
-         <input type="submit" value="Submit">
-      </form> 
+      <form action="/submit-form" method="post">
+         <label for="username">Username:</label>
+         <input type="text" id="username" name="username" required>
+         <button type="submit">Submit</button>
+     </form> 
  
       <script src="script.js"></script> <!-- script command so javascript works  -->
    </body> 
