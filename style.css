@@ -32,15 +32,22 @@ body {
     text-align: left;
   }
   
+  .column {
+    float: left;
+  }
 
   .left {
-    width: 25%;
+    width: 35%;
   }
   
   .right {
-    width: 75%;
+    width: 65%;
   }
 
-  .column {
-    flex: 50
+  .row2 {
+    display: flex;
+  }
+  
+  .column2 {
+    flex: 50%;
   }
