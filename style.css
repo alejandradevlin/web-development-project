@@ -28,11 +28,3 @@ body {
     border: 5px solid #555;
   }
   
-  .header {
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 250px;
-    max-width: 1000px;
-    text-align: center;
-  }
-  
