@@ -27,4 +27,8 @@ body {
     border-radius: 50%;
     border: 5px solid #555;
   }
+
+  .text {
+    text-align: left;
+  }
   
