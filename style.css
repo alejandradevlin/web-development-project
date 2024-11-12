@@ -33,19 +33,10 @@ body {
   }
   
 
-  .left {
-    width: 50%;
-  }
-  
-  .right {
-    width: 50%;
+  .row {
+    display: flex;
   }
   
   .column {
     flex: 50%;
   }
-
-  .row {
-    display: flex;
-  }
-  
