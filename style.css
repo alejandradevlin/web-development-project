@@ -32,10 +32,15 @@ body {
     text-align: left;
   }
   
-  .row {
-    display: flex;
+
+  .left {
+    width: 25%;
   }
   
+  .right {
+    width: 75%;
+  }
+
   .column {
-    flex: 25%;
+    flex: 50
   }
