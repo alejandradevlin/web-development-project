@@ -22,8 +22,8 @@ body {
     font-weight: bold;
   }
   .pic {
-    width: 350vw;
-    height: 350vh;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     border: 5px solid black;
   }
