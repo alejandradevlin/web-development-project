@@ -2,6 +2,11 @@ const express = require('express'); //create server using the express module in 
 const app = express(); //create an instance of express 'app'
 const port = 3000; //set environment variable 'port' to 3000, this is for localhost3000:
 
+// set up middleware to allow static webpages and images to function
+app.use(express.static(__dirname));
+app.use('/images', express.static(path.join(__dirname, 'images'))); 
+app.use('/pages', express.static(path.join(__dirname, 'pages')));
+
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded, middle ware
 
 app.get('/', (req, res) => { //get action, retrieve file from server 
